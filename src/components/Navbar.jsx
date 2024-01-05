@@ -1,15 +1,21 @@
 import './Navbar.css'
+import { Menu } from './Menu'
 
 const Navbar = () => {
   return (
     <nav className='navbar'>
-        <h1 className='logo'></h1>
+        <h1 className='logo'>ANATASOV SAFARI</h1>
         <ul className='menu'>
-            <li>
-                <a href='/'>
-                  <i className="fa-solid fa-house"></i>Home
-                </a>
-            </li>
+          { Menu.map((item, index)=> {
+            return (
+                <li key={ index }>
+                  <a className={ item.cName } href={ item.url }>
+                    <i className={ item.icon }></i>{ item.title }
+                  </a>
+              </li>
+            )
+          })}
+          <button>Sign up</button>
         </ul>
     </nav>
   )
