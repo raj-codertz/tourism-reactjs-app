@@ -1,4 +1,4 @@
-import './Hero'
+import './Hero.css'
 
 const Hero = (props) => {
   return (
