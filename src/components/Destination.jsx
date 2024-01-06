@@ -1,4 +1,8 @@
-
+import ImgOne from '../assets/dest-1.jpg'
+import ImgTwo from '../assets/dest-2.jpg'
+import ImgThree from '../assets/dist-3.jpg'
+import ImgFour from '../assets/dist-4.jpg'
+import './Destination.css'
 
 const Destination = () => {
   return (
@@ -11,7 +15,8 @@ const Destination = () => {
              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error rem dolorum esse sequi alias quod quis dignissimos beatae quibusdam nihil qui hic eaque nemo, totam consequuntur reiciendis illum earum unde!</p>
            </div>
            <div className="image">
-              <img src="" alt="img" />
+              <img src={ ImgOne } alt="img" />
+              <img src={ ImgTwo } alt="img" />
            </div>
         </div>
     </div>
