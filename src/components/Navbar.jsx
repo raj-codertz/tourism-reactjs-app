@@ -16,7 +16,8 @@ class Navbar extends Component {
             <div className='hambuger' onClick={ this.handleClick }>
                <i className={ this.state.clicked ? "fa fa-times" : "fa fa-bars"}></i>
             </div>
-            <ul className='menu'>
+
+            <ul className={ this.state.clicked ? "menu activate" : "menu"}>
               { Menu.map((item, index)=> {
                 return (
                     <li key={ index }>
