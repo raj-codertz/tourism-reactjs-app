@@ -12,6 +12,12 @@
     justify-content: space-between;
     margin-top: 4.5rem;
 }
+.reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-top: 4.5rem;
+}
 
 .dest-text {
    width: 45%;
@@ -53,6 +59,12 @@
         flex-direction: column-reverse;
         margin-top: 2.5rem;
     }
+
+    .reverse {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 4.5rem;
+    }
     
     .dest-text {
         width: 100%;
@@ -63,7 +75,7 @@
         margin: 1.8rem 0;
     }
 
-    .iamge img {
+    .image img {
         height: 250px;
     }
 }
