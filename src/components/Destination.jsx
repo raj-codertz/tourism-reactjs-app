@@ -13,14 +13,14 @@ const Destination = () => {
         <DestinationUtils 
             class= "first-dest"
             heading = "Mount Kilimanjaro"
-            text = "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit numquam, suscipit odio voluptatum pariatur voluptatibus voluptatem, molestias dolorum similique eos quasi delectus. Laudantium, sed modi ullam numquam pariatur voluptatem voluptate, culpa consectetur, nesciunt vel distinctio. Neque sapiente quod placeat enim cum vel tenetur incidunt corporis iusto veniam asperiores repudiandae nemo quidem eveniet quam sint mollitia ullam doloribus, animi omnis quos porro facilis? Et nulla animi ducimus, excepturi veritatis obcaecati placeat dolores rem explicabo fugit atque recusandae provident voluptate repellendus quidem, ex, ipsum blanditiis deserunt! Quis quidem illum voluptatibus debitis incidunt, est sint culpa consectetur, excepturi ab nisi itaque blanditiis minus!"
+            text = "Embark on the ultimate adventure with our Mount Kilimanjaro expedition. Towering majestically on the Tanzanian horizon, Kilimanjaro offers a once-in-a-lifetime trekking experience. Our expert guides will lead you through diverse ecosystems, from lush rainforests to alpine deserts, culminating in a sunrise summit above the clouds. Conquer Africa's highest peak and bask in the glory of an achievement that will stay with you forever. Let the awe-inspiring beauty of Kilimanjaro become the backdrop to your most unforgettable journey."
             img1 = {ImgOne }
             img2 = { ImgTwo }
         />
         <DestinationUtils 
             class= "reverse"
             heading = "Serengeti National Park"
-            text = "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit numquam, suscipit odio voluptatum pariatur voluptatibus voluptatem, molestias dolorum similique eos quasi delectus. Laudantium, sed modi ullam numquam pariatur voluptatem voluptate, culpa consectetur, nesciunt vel distinctio. Neque sapiente quod placeat enim cum vel tenetur incidunt corporis iusto veniam asperiores repudiandae nemo quidem eveniet quam sint mollitia ullam doloribus, animi omnis quos porro facilis? Et nulla animi ducimus, excepturi veritatis obcaecati placeat dolores rem explicabo fugit atque recusandae provident voluptate repellendus quidem, ex, ipsum blanditiis deserunt! Quis quidem illum voluptatibus debitis incidunt, est sint culpa consectetur, excepturi ab nisi itaque blanditiis minus!"
+            text = "Step into the untamed beauty of the Serengeti with our exclusive safari experiences. Witness the world-famous Great Migration, where vast herds of wildebeest and zebras roam freely across the expansive plains. Our guided safaris promise an up-close encounter with Africa's diverse wildlife, from majestic lions to graceful giraffes. Immerse yourself in the rhythm of the wilderness, staying in carefully selected accommodations that blend luxury with the raw beauty of nature. Join us on a Serengeti safari and create timeless memories in the heart of the African savannah."
             img1 = {ImgThree }
             img2 = { ImgFour }
         />
