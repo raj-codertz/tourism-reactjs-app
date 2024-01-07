@@ -1,5 +1,7 @@
 import Hero from '../components/Hero'
 import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
+import AboutUs from '../components/AboutUs'
 // importing an img for about 
 
 const About = () => {
@@ -12,6 +14,8 @@ const About = () => {
        title = "About Us"
        btnClass="hide"
      />
+      <AboutUs />
+      <Footer />
     </>
   )
 }

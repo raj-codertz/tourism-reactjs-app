@@ -1,5 +1,6 @@
 import Hero from '../components/Hero'
 import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
 // importing an img for contact
 
 const Contact = () => {
@@ -12,6 +13,7 @@ const Contact = () => {
        title = "Contact Us"
        btnClass="hide"
      />
+      <Footer />
     </>
   )
 }
